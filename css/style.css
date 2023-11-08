@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+:active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #333333;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    color: #333333;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 30px 30px;
+    width: 100%;
+    max-width: 1040px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h1,
+h2 {
+    margin-bottom: 50px;
+    width: 60%;
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.text {
+    margin-bottom: 30px;
+}
+
+.hero {
+    background: #E3FAFF url(../img/pay_hero_pic.png);
+    background-repeat: no-repeat;
+    background-position-x: calc(50% + 300px);
+    background-position-y: 30%;
+}
+
+.solution__list {
+    margin-bottom: 30px;
+}
+
+.solution__list li {
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(../img/pay_done.png);
+    background-repeat: no-repeat;
+}
+
+.solution__list li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 30px 50px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #CAF5FF;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.footer {
+    background-color: #edf1f2;
+}
+
+.footer__content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__content__text {
+    font-size: 12px;
+}
+
+.footer {
+    background-color: #edf1f2;
+}
+
+.footer__content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__content__text {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 576px) {
+    .hero {
+        background-image: none;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h1,
+    h2 {
+        width: 100%;
+    }
+
+    .btn {
+        padding: 20px 30px;
+    }
+}
